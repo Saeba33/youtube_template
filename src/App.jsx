@@ -1,18 +1,14 @@
-import Header from "./components/Header";
-import Aside from "./components/Aside";
 import Content from "./components/Content";
-import Shorts from "./components/Shorts";
-import Filters from "./components/Filters";
+import Header from "./components/layout/Header";
+import Sidebar from "./components/layout/Sidebar";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen bg-white">
       <Header />
-      <Aside />
-      <Filters />
+      <Sidebar />
       <Content />
-      <Shorts />
-    </>
+    </div>
   );
 }
 
