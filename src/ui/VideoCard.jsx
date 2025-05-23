@@ -1,8 +1,8 @@
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { PiCheckCircleFill } from "react-icons/pi";
-import { CgMediaLive } from "react-icons/cg";
+import { GiVibratingBall } from "react-icons/gi";
 
-export default function VideoCard({ video }) {
+export default function VideoCard({ ...video }) {
   return (
     <div className="flex flex-col cursor-pointer group">
       {/* Miniature video */}
@@ -16,7 +16,7 @@ export default function VideoCard({ video }) {
         <div className="absolute bottom-2 right-2">
           {video.live ? (
             <div className="flex gap-1 items-center bg-red-600 text-white px-2 py-1 rounded">
-              <CgMediaLive />
+              <GiVibratingBall className="rotate-45"/>
               <span className=" text-xs font-semibold">EN DIRECT</span>
             </div>
           ) : (
@@ -59,7 +59,7 @@ export default function VideoCard({ video }) {
           )}
           {video.live ? (
             <div className="flex gap-1 items-center bg-red-600 text-white px-1 py-[2px] w-fit rounded-xs mt-1">
-              <CgMediaLive />
+              <GiVibratingBall className="rotate-45"/>
               <span className=" text-xs font-semibold">EN DIRECT</span>
             </div>
           ) : null}

@@ -1,11 +1,12 @@
 import { LuCircleUser } from "react-icons/lu";
 import { sidebarData } from "../../data/sidebarData";
 import SidebarNavItem from "../../ui/SidebarNavItem";
+import "../../index.css";
 
 
 export default function Sidebar() {
   return (
-    <aside className="w-60 bg-white h-screen overflow-y-auto scrollbar-thin">
+    <aside className="w-60 h-screen sidebar-scrollbar">
       {/* Section principale */}
       <div className="py-3">
         {sidebarData.mainSection.map((item) => (

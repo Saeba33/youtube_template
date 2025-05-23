@@ -3,6 +3,14 @@
 
 /* Variables */
 
-
 /* General */
 
+.sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: blue;
+  overflow-y: auto;
+}
+
+.sidebar-scrollbar:hover {
+  scrollbar-color: red;
+}
