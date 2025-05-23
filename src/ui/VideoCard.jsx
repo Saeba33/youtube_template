@@ -20,7 +20,7 @@ export default function VideoCard({ ...video }) {
               <span className=" text-xs font-semibold">EN DIRECT</span>
             </div>
           ) : (
-            <span className="bg-black/50 text-white px-2 py-1 rounded text-xs font-semibold focus:">
+            <span className="bg-black/60 text-white px-2 py-1 rounded text-xs font-semibold focus:">
               {video.duration}
             </span>
           )}

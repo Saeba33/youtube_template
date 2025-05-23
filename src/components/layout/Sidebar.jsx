@@ -19,7 +19,7 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Section utilisateur */}
       <div className="py-1">
         {sidebarData.userSection.map((item) => (
@@ -27,9 +27,9 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Section de connexion */}
-      <div className="p-4 flex flex-col">
+      <div className="py-2 px-5 flex flex-col">
         <p className="text-sm text-gray-800 leading-5 mb-4">
           Connectez-vous pour accéder à vos vidéos, playlists et
           recommandations.
@@ -40,10 +40,10 @@ export default function Sidebar() {
         </button>
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Section Explorer */}
       <div className="py-1">
-        <h3 className="px-4 py-2 text-base font-medium text-gray-800">
+        <h3 className="px-6 py-1 text-md font-medium text-gray-800">
           {sidebarData.explorerSection.title}
         </h3>
         {sidebarData.explorerSection.items.map((item) => (
@@ -51,10 +51,10 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Section YouTube Services */}
       <div className="py-1">
-        <h3 className="px-4 py-2 text-base font-medium text-gray-800">
+        <h3 className="px-4 py-1 text-md font-medium text-gray-800">
           {sidebarData.youtubeSection.title}
         </h3>
         {sidebarData.youtubeSection.items.map((item) => (
@@ -67,7 +67,7 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Section Paramètres */}
       <div className="py-1">
         {sidebarData.settingsSection.map((item) => (
@@ -75,7 +75,7 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Séparateur */}
-      <div className="border-t border-gray-200 my-3"></div>
+      <div className="border-t border-gray-200 my-2"></div>
       {/* Footer */}
       <footer className="px-4 py-4">
         <div className="text-xs text-gray-600 leading-4"></div>

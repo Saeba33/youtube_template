@@ -7,10 +7,11 @@
 
 .sidebar-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: blue;
+  scrollbar-color: transparent transparent;
   overflow-y: auto;
 }
 
 .sidebar-scrollbar:hover {
-  scrollbar-color: red;
+  scrollbar-color: gray transparent;
+  overflow-y: auto;
 }
