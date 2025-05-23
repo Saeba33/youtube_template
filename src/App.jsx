@@ -6,8 +6,14 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <Sidebar />
-      <Content />
+      <div className="flex">
+        <div className="shrink-0">
+          <Sidebar />
+        </div>
+        <div className="flex-1">
+          <Content />
+        </div>
+      </div>
     </div>
   );
 }

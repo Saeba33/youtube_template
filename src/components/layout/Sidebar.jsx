@@ -28,12 +28,12 @@ export default function Sidebar() {
       {/* Séparateur */}
       <div className="border-t border-gray-200 my-3"></div>
       {/* Section de connexion */}
-      <div className="px-4 py-4">
+      <div className="p-4 flex flex-col">
         <p className="text-sm text-gray-800 leading-5 mb-4">
           Connectez-vous pour accéder à vos vidéos, playlists et
           recommandations.
         </p>
-        <button className="flex gap-2 items-center text-blue-600 border border-gray-300 rounded-full px-4 py-2 hover:bg-blue-50 hover:border-blue-200 transition-all duration-200 text-sm font-medium">
+        <button className="flex gap-2 items-center justify-center text-blue-600 border border-gray-300 rounded-full px-4 py-2 hover:bg-blue-50 hover:border-transparent text-sm font-medium">
           <LuCircleUser className="w-5 h-5" />
           <span>Se connecter</span>
         </button>

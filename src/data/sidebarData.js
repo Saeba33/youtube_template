@@ -65,7 +65,7 @@ export const sidebarData = {
       {
         id: "music",
         icon: IoMusicalNotesOutline,
-        title: "Music",
+        title: "Musique",
       },
       {
         id: "movies",
