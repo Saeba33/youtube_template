@@ -54,7 +54,7 @@ export default function Sidebar() {
       <div className="border-t border-gray-200 my-2"></div>
       {/* Section YouTube Services */}
       <div className="py-1">
-        <h3 className="px-4 py-1 text-md font-medium text-gray-800">
+        <h3 className="px-4 py-1 text-md font-semibold text-gray-800">
           {sidebarData.youtubeSection.title}
         </h3>
         {sidebarData.youtubeSection.items.map((item) => (

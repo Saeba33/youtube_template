@@ -10,7 +10,7 @@ function App() {
         <div className="shrink-0">
           <Sidebar />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 ml-5">
           <Content />
         </div>
       </div>
