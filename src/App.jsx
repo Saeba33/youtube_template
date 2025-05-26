@@ -9,7 +9,7 @@ function App() {
         <div className="fixed bg-white top-0 z-50">
           <Sidebar />
         </div>
-        <div className="flex flex-col ml-60 ">
+        <div className="flex flex-col ml-60 overflow-hidden">
           <div className="sticky top-0 z-50 w-full  bg-white/90">
             <Header />
           </div>

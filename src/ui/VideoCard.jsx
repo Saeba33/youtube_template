@@ -30,7 +30,7 @@ export default function VideoCard({ ...video }) {
       <div className="flex">
         {/* Avatar */}
         <div className="flex-shrink-0 rounded-full w-8 h-8 mr-3 ">
-          <img className="rounded-full w-8 h-8 object-cover w-full" src={video.thumbnail} alt={video.title} />
+          <img className="rounded-full w-8 h-8 object-cover" src={video.thumbnail} alt={video.title} />
         </div>
         {/* Détails de la vidéo */}
         <div className="flex-1 min-w-0">
