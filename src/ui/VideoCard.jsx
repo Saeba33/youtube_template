@@ -6,11 +6,11 @@ export default function VideoCard({ ...video }) {
   return (
     <div className="flex flex-col cursor-pointer group">
       {/* Miniature video */}
-      <div className="relative aspect-video mb-3 rounded-xl bg-gray-50">
+      <div className="relative aspect-video mb-3 bg-gray-50">
         <img
           src={video.img}
           alt={video.title}
-          className="w-full object-cover"
+          className="w-full object-cover rounded-xl"
         />
         {/* Live */}
         <div className="absolute bottom-2 right-2">

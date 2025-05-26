@@ -2,7 +2,7 @@ import { LuCircleUser } from "react-icons/lu";
 import { sidebarData } from "../../data/sidebarData";
 import SidebarNavItem from "../../ui/SidebarNavItem";
 import { RxHamburgerMenu } from "react-icons/rx";
-import "../../index.css";
+
 
 
 export default function Sidebar() {

@@ -1,6 +1,8 @@
 import Content from "./components/Content";
 import Header from "./components/layout/Header";
+import MobileSidebar from "./components/layout/MobileSidebar";
 import Sidebar from "./components/layout/Sidebar";
+import VideoDetails from "./components/VideoDetails";
 
 function App() {
   return (
@@ -9,11 +11,14 @@ function App() {
         <div className="fixed bg-white top-0 z-50">
           <Sidebar />
         </div>
-        <div className="flex flex-col ml-60 overflow-hidden">
-          <div className="sticky top-0 z-50 w-full  bg-white/90">
+
+        <div className="flex flex-col ml-60">
+          <div className="sticky top-0 z-50 w-full  bg-white/95">
             <Header />
           </div>
           <Content />
+          <MobileSidebar />
+          <VideoDetails/>
         </div>
       </div>
     </div>

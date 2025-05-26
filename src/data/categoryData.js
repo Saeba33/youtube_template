@@ -1,4 +1,4 @@
-const categoryData = [
+export const categoryData = [
   {
     id: "all",
     label: "Tout",
@@ -73,5 +73,3 @@ const categoryData = [
     label: "Beauté",
   },
 ];
-
-export default categoryData;

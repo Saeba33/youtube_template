@@ -1,7 +1,7 @@
 export const videoData = [
   {
     id: "1",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "11:48",
     thumbnail: "src/images/Itachi.webp",
     title: "Youtube template",
@@ -14,7 +14,7 @@ export const videoData = [
   },
   {
     id: "2",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "01:00",
     thumbnail: "src/images/Mugen.webp",
     title:
@@ -28,7 +28,7 @@ export const videoData = [
   },
   {
     id: "3",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "01:00",
     thumbnail: "src/images/PeppaPig.webp",
     title: "Les folles histoires de Peppa et Georges",
@@ -37,11 +37,11 @@ export const videoData = [
     views: "6,8 k",
     time: "il y à 1 mois",
     live: true,
-    category: ["all", "serie", "children"],
+    category: ["all", "serie", "children", "music"],
   },
   {
     id: "4",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "11:48",
     thumbnail: "src/images/Tchoupi.webp",
     title: "T'choupi code le front-end de YouTube",
@@ -54,7 +54,7 @@ export const videoData = [
   },
   {
     id: "5",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "01:00",
     thumbnail: "src/images/Pikachu.webp",
     title:
@@ -68,7 +68,7 @@ export const videoData = [
   },
   {
     id: "6",
-    img: "src/images/logo.webp",
+    img: "src/images/minia.webp",
     duration: "01:00",
     thumbnail: "src/images/Sebastian.webp",
     title: "Black Butler - épisode 1 (vostfr)",
