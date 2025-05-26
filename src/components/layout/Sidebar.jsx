@@ -1,14 +1,29 @@
 import { LuCircleUser } from "react-icons/lu";
 import { sidebarData } from "../../data/sidebarData";
 import SidebarNavItem from "../../ui/SidebarNavItem";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "../../index.css";
 
 
 export default function Sidebar() {
   return (
-    <aside className="w-60 h-screen sidebar-scrollbar">
+    <aside className="w-60 h-screen ">
       {/* Section principale */}
-      <div className="py-3">
+              <div className="flex items-center px-4 gap-4 min-w-0">
+                {/* Menu burger */}
+                <button className="p-2 hover:bg-gray-200 rounded-full cursor-pointer">
+                  <RxHamburgerMenu className="w-6 h-6" />
+                </button>
+                <div className="flex items-center gap-1 cursor-pointer">
+                  {/* Logo */}
+                  <img
+                    src="src/images/logo.webp"
+                    alt="logo"
+                    className="w-auto h-24"
+                  />
+                </div>
+              </div>
+      <div className="py-3 sidebar-scrollbar">
         {sidebarData.mainSection.map((item) => (
           <SidebarNavItem
             key={item.id}
@@ -31,8 +46,7 @@ export default function Sidebar() {
       {/* Section de connexion */}
       <div className="py-2 px-5 flex flex-col">
         <p className="text-sm text-gray-800 leading-5 mb-4">
-          Connectez-vous pour accéder à vos vidéos, playlists et
-          recommandations.
+          Connectez-vous à Youtube pour cliquer sur "J'aime", ajouter un commentaire et vous abonner.
         </p>
         <button className="flex gap-2 items-center justify-center text-blue-600 border border-gray-300 rounded-full px-4 py-2 hover:bg-blue-50 hover:border-transparent text-sm font-medium">
           <LuCircleUser className="w-5 h-5" />

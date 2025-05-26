@@ -5,12 +5,14 @@ import Sidebar from "./components/layout/Sidebar";
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
       <div className="flex">
-        <div className="shrink-0">
+        <div className="fixed bg-white top-0 z-50">
           <Sidebar />
         </div>
-        <div className="flex-1 ml-5">
+        <div className="flex flex-col ml-60 ">
+          <div className="sticky top-0 z-50 w-full  bg-white/90">
+            <Header />
+          </div>
           <Content />
         </div>
       </div>

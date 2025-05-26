@@ -6,7 +6,7 @@ export default function VideoCard({ ...video }) {
   return (
     <div className="flex flex-col cursor-pointer group">
       {/* Miniature video */}
-      <div className="relative aspect-video mb-3 rounded-xl border-2 border-blue-500">
+      <div className="relative aspect-video mb-3 rounded-xl bg-gray-50">
         <img
           src={video.img}
           alt={video.title}
@@ -29,8 +29,8 @@ export default function VideoCard({ ...video }) {
       {/* Informations de la vidéo */}
       <div className="flex">
         {/* Avatar */}
-        <div className="flex-shrink-0 rounded-full w-7 h-7 mr-3 border border-black">
-          <img src={video.thumbnail} alt={video.title} />
+        <div className="flex-shrink-0 rounded-full w-8 h-8 mr-3 ">
+          <img className="rounded-full w-8 h-8 object-cover w-full" src={video.thumbnail} alt={video.title} />
         </div>
         {/* Détails de la vidéo */}
         <div className="flex-1 min-w-0">

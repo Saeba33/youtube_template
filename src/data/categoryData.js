@@ -1,8 +1,8 @@
-export const categoryData = [
+const categoryData = [
   {
     id: "all",
     label: "Tout",
-    isDefault: true,
+    isActive: true,
   },
   {
     id: "music",
@@ -73,3 +73,5 @@ export const categoryData = [
     label: "Beauté",
   },
 ];
+
+export default categoryData;
