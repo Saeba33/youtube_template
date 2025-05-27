@@ -9,7 +9,7 @@ export default function SidebarNavIcon({
   return (
     <div
       className={` flex flex-col w-fit p-2 items-center gap-2 hover:bg-gray-100 cursor-pointer rounded-lg ${
-        isActive ? "bg-gray-100 font-medium" : ""
+        isActive ? "" : ""
       }`}
     >
       <Icon className={`${iconClass} ${textColor}`} />

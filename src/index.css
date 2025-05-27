@@ -5,6 +5,7 @@
 /* Variables */
 :root {
     --font-roboto: "Roboto", sans-serif;
+    --bg-header: rgba(255,255,255,0.9)
 }
 
 /* General */
@@ -22,3 +23,4 @@ body {
   scrollbar-color: gray transparent;
   overflow-y: auto;
 }
+

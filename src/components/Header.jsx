@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 h-[56px] w-full bg-white/95 flex justify-between px-4">
+    <header className="fixed top-0 h-[56px] w-full flex justify-between px-4">
       {/* Section gauche - Menu buger et logo */}
       <div className="flex items-center min-w-0">
         {/* Menu burger */}

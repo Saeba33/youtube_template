@@ -1,9 +1,7 @@
 import Content from "./components/Content";
-import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
-import PageManager from "./components/PageManager";
 //import VideoDetails from "./components/VideoDetails";
-//import Filters from "./components/Filters";
+import MasterHead from "./components/layout/MasterHead";
 
 function App() {
   return (
@@ -14,15 +12,11 @@ function App() {
         </div>
 
         <div className="flex flex-col">
-          <div className="z-10">
-            <Header />
-           {/* <Filters /> */}
-          </div>
-          <div className="ml-60">
-            <PageManager/>
-             {/*<Content /><VideoDetails/>*/}
-          </div>
+          <MasterHead />
 
+          <div className="ml-24">
+            <Content />
+          </div>
         </div>
       </div>
     </div>
