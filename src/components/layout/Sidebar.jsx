@@ -8,7 +8,7 @@ export default function Sidebar() {
   return (
     <aside className="fixed top-[56px]">
       {/* Section principale */}
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center">
         {sidebarData.mainSection.map((item) => (
           <SidebarNavIcon
             key={item.id}
@@ -19,7 +19,7 @@ export default function Sidebar() {
         ))}
       </div>
       {/* Section utilisateur */}
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center">
         {sidebarData.userSection.map((item) => (
           <SidebarNavIcon key={item.id} icon={item.icon} title={item.title} />
         ))}
