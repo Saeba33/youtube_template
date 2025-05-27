@@ -13,7 +13,6 @@ function App() {
 
         <div className="flex flex-col">
           <MasterHead />
-
           <div className="ml-24">
             <Content />
           </div>
