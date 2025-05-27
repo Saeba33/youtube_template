@@ -11,7 +11,7 @@ function App() {
           <Sidebar />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pt-35">
           <MasterHead />
           <div className="ml-24">
             <Content />
