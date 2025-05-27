@@ -13,7 +13,7 @@ function App() {
 
         <div className="flex flex-col pt-35">
           <MasterHead />
-          <div className="ml-24">
+          <div className="mx-6">
             <Content />
           </div>
         </div>

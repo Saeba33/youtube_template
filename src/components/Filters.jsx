@@ -6,7 +6,7 @@ export default function Filters() {
   return (
     <div className="fixed flex items-center gap-3 w-250 top-[56px] left-[96px] z-5">      
         
-        <button className="  bg-blue-500 p-2 rounded-full cursor-pointer">
+        <button className="bg-white translate-x-5 p-2 rounded-full cursor-pointer ring-3 ring-transparent hover:bg-gray-200 hover:ring-gray-200">
           <FaChevronLeft />
         </button>
 
@@ -21,7 +21,7 @@ export default function Filters() {
         </div>
 
         <button
-          className="bg-green-500 p-2 rounded-full cursor-pointer">
+          className="bg-white translate-x-[-5] p-2 rounded-full cursor-pointer ring-3 ring-transparent hover:bg-gray-200 hover:ring-gray-200">
           <FaChevronRight />
         </button>
 </div>

@@ -2,7 +2,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { PiCheckCircleFill } from "react-icons/pi";
 import { GiVibratingBall } from "react-icons/gi";
 
-export default function VideoCard({ ...video }) {
+export default function VideoCard({ video }) {
   return (
     <div className="flex flex-col cursor-pointer group">
       {/* Miniature video */}
